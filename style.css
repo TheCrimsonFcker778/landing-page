@@ -1,0 +1,198 @@
+/*GENERAL*/
+body{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+aside {
+  display: flex;
+}
+
+footer{
+  padding: 10px 50px;
+  color: #E5E7EB;
+  background-color: #1F2937;
+}
+
+/*LAYOUT*/
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 0px;
+  position: relative; 
+  bottom: 50px; left: 80%; 
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+  padding: 0px;
+  margin: 0px;
+}
+
+#logo {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  right: 30%; top: 30px;
+}
+
+#sideimage img {
+  height: 230px;
+  width: 530px;
+  position: relative;
+  left: 55%; bottom: 205px;
+}
+
+.imagerow {
+  height: 200px;
+  width: 200px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin: 10px;
+  padding: 0px;
+  border: 5px solid #3882F6;
+  border-radius: 20px;
+  position: relative;right: 65%;
+}
+#signupsectioncontainer {
+  height: 300px;
+}
+
+#signupsectioncontainer h2 {
+  color: #F9FAF8;
+  position: relative;
+  right: 18%; bottom: 40px;
+}
+
+#signupsectioncontainer p {
+  color: #F9FAF8;
+  position: relative;
+  right: 9.5%; bottom: 55px;
+}
+
+#button1 {
+  position: relative;
+  font-size: 14px;
+  font-weight: bolder;
+  border: none;
+  right: 29%;
+}
+
+#button2 {
+  position: relative;
+  border: 2px solid #F9FAF8;
+  font-size: 16px;
+  font-weight: bolder;
+  left: 15%; bottom: 120px;
+}
+
+.imagesectioncontainer{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagesectioncontainer h2 {
+  position: relative;
+  bottom: 40%; left: 450px;
+}
+.imagesectioncontainer p {
+  position: relative;
+
+}
+
+.imgul{
+  display: flex;
+  flex-direction: row;
+}
+
+.SignUpButton {
+  background-color: #3882F6;
+  padding: 10px 30px;
+  color: #F9FAF8;
+  border-radius: 6px;
+}
+
+.box {
+  height: 130px;
+  width: 950px;
+  border-radius: 5px;
+  background-color: #3882F6;
+  position: relative;
+  left: 22%; top: 75px;
+}
+
+/*TYPOGRAPHY*/
+
+.welcome h2 {
+ font-size: 48px;
+ font-weight: bold;
+ align-items:left;
+ color: #F9FAF8;
+ position: relative;
+ left: 18%; top: 50px;
+ text-align:left;
+}
+
+.info li {
+  padding: 10px;
+}
+
+.quotesection {
+  height: 400px;
+  background-color: #E5E7EB;
+  padding: 0px;
+  margin: 0px;  
+}
+
+.welcome p {
+  color: #F9FAF8;
+  position: relative;
+  left: 18%;
+  text-align:left;
+}
+
+.imgul p {
+  display: flex;
+  position: relative;
+  right: 50%;
+  text-align: center;
+}
+
+.quotesection p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+  padding: 100px;
+  margin: 0px;
+  position: relative;
+  bottom: 30px;
+}
+
+
+
+
+
+
+ 
